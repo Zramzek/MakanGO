@@ -1,11 +1,6 @@
 {
   "version": 2,
   "name": "makango-frontend",
-  "functions": {
-    "src/pages/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/(.*)",
