@@ -1,6 +1,9 @@
 {
   "version": 2,
   "name": "makango-frontend",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
   "rewrites": [
     {
       "source": "/api/(.*)",
