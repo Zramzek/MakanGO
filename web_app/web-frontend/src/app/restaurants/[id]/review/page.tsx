@@ -15,7 +15,7 @@ export default function RestaurantReviewPage() {
   const params = useParams();
   const router = useRouter();
   const { user } = useAuth();
-  const id = params.id as string;
+  const id = params?.id as string;
 
   const [restaurant, setRestaurant] = useState<Restaurant | null>(null);
   const [loading, setLoading] = useState(true);

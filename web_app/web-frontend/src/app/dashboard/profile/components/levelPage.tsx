@@ -25,7 +25,7 @@ const LevelPage = () => {
   ];
 
   const getCurrentXP = () => {
-    return user?.jumlah_review * 10 || 0;
+    return (user?.jumlah_review ?? 0) * 10;
   };
 
   const getNextLevelXP = () => {

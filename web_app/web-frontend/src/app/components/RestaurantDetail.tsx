@@ -1,6 +1,6 @@
 // src/app/components/RestaurantDetail.tsx
 import Image from "next/image";
-import { Restaurant } from "@/app/services/types";
+import { Restaurant } from "@/app/services/restaurant";
 import ReviewList from "./ReviewList";
 
 export default function RestaurantDetail({
